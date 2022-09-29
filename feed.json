@@ -6,21 +6,29 @@
         {
             "id": "1509428502953",
             "title": "Sample Stream",
-            "content": [
-                "https://s2.ozarkstrafficoneview.com/rtplive/CAM80/playlist.m3u8"
-            ],
-            "language": [
-                "en"
-            ],
-            "thumbnail": "https://example.org/cdn/thumbnails/1509428502952/1",
-            "brandedThumbnail": "https://example.org/cdn/thumbnails/1509428502952/1",
+            "content": {
+                "dateAdded": "2019-11-11T22:21:37+00:00",
+                "videos": [
+                  {
+                    "url": "https://s2.ozarkstrafficoneview.com/rtplive/CAM80/playlist.m3u8",
+                    "quality": "HD",
+                    "videoType": "MP4"
+                    }
+                 ],
+                 "duration": 3600,
+                 "language": "en",
+                 "captions": [ ]
+
+              },
+            "language": "en",
+            "thumbnail":"https://image.roku.com/bWFya2V0aW5n/roku-logo.png",
+            "brandedThumbnail":"https://image.roku.com/bWFya2V0aW5n/roku-logo.png",
             "shortDescription": "A live description",
             "longDescription": "A longer description of a live stream",
-            "tags": [
-                "linear",
-                "news",
-                "celebrity"
-            ]
+            "rating": {
+                "rating": "PG",
+                "ratingSource": "USA_PR"
+              }
         }
     ]
 }
